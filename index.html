@@ -9,7 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <meta name="author" content="NishantTheProgrammer">
+    <script src="https://kit.fontawesome.com/029682b453.js" crossorigin="anonymous"></script>
     <meta name="description" content="This is a traditional love calculator based on some simple calculations">
     <style>
         .percentage
@@ -33,7 +35,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container">
             <a class="navbar-brand w-100 text-center" href="#">Love Calculator</a>
-        </div>
+        
     </nav>
     <div class="container my-4">
         <form onsubmit="return calculate();" class="">
@@ -44,6 +46,9 @@
                 <input type="text" class="form-control" placeholder="Partner Name" id="secondName">
             </div>
             <button type="submit" class="btn btn-primary">Calculate</button>
+            <button type="button" onclick="{location.href= `https://github.com/NishantTheProgrammer/loverCalculator`}" class="btn btn-dark">
+                <i class="fas fa-code-branch"></i> Source Code</button>
+            </div>
           </form>
           <div class="names my-2">
               <h2 class="text-left fname"></h2>
